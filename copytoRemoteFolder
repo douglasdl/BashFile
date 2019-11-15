@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#Copy files "file1.c" and "file2.h" from current directory to remote ip/folder logging with user "user".
+scp -r file1.c file2.h user@127.0.0.1:/folder/
