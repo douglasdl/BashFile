@@ -24,6 +24,13 @@ Present working directory
 </code>
 <br>
 
+Open the Present working directory in the Explorer
+<br>
+<code>
+    open .
+</code>
+<br>
+
 ## Listing Files
 List files in the current directory
 <br>
