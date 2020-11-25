@@ -1,6 +1,15 @@
 # BashFile
 Bash File Commands
 
+## Execute a BashFile (.bin)
+Execute a file from current folder
+<br>
+<code>
+    ./filename
+</code>
+<br>
+
+
 ## Navigation
 Change directory
 <br>
