@@ -1,0 +1,5 @@
+#!/bin/bash
+file='excel.csv'
+while read line; do
+echo $line
+done < $file

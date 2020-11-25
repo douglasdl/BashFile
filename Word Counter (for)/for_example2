@@ -1,0 +1,9 @@
+#!/bin/bash
+
+i=1
+for var in `cat excel.csv`
+do
+
+echo "Palavra $i: $var"
+((i++))
+done

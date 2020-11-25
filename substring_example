@@ -1,0 +1,4 @@
+#!/bin/bash
+Str="Learn Linux from Internet"
+subStr=${Str:6:5}
+echo $subStr

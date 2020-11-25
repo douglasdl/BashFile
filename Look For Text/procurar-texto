@@ -1,0 +1,4 @@
+#!/bin/bash
+
+str="Segunda"
+grep "$str" weekday.txt
