@@ -132,3 +132,11 @@ Display your PC IP (Linux)
     curl http://whatismyip.akamai.com
 </code>
 <br>
+
+Display your PC IP (Linux)
+<br>
+<code>
+    wget -qO- ifconfig.me
+</code>
+<br>
+
