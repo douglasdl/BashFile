@@ -3,149 +3,70 @@ Bash File Commands
 
 ## Execute a BashFile (.bin)
 Execute a file from current folder
-<br>
-<code>
-    ./filename
-</code>
-<br>
-
+`./filename`  
 
 ## Navigation
-Change directory
-<br>
-<code>
-    cd <folder>
-</code>
-<br>
+Change directory  
+`cd <folder>`  
+  
+Change directory (return 1 level)  
+`cd ..`  
+  
+Present working directory  
+`pwd`  
 
-Change directory (return 1 level)
-<br>
-<code>
-    cd ..
-</code>
-<br>
+Open the Present working directory in the Explorer  
+`open .`  
 
+Open the Present working directory in the Visual Studio 
+`code .`  
 
-Present working directory
-<br>
-<code>
-    pwd
-</code>
-<br>
-
-Open the Present working directory in the Explorer
-<br>
-<code>
-    open .
-</code>
-<br>
 
 ## Listing Files
-List files in the current directory
-<br>
-<code>
-    ls
-</code>
-<br>
+List files in the current directory  
+`ls`  
 
-List files including hidden files
-<br>
-<code>
-    ls -all
-</code>
-<br>
+List files including hidden files  
+`ls -all`  
 
 ## Check my IP Address
-Display your PC Hostname
-<br>
-<code>
-    hostname
-</code>
-<br>
+Display your PC Hostname  
+`hostname`  
 
-Display your PC IP (Windows)
-<br>
-<code>
-    ipconfig
-</code>
-<br>
+Display your PC IP (Windows)  
+`ipconfig`  
 
-Display your PC IP (Linux)
-<br>
-<code>
-    ip
-</code>
-<br>
+Display your PC IP (Linux)  
+`ip`  
 
-Display your PC IP (Linux)
-<br>
-<code>
-    hostname -I
-</code>
-<br>
+Display your PC IP (Linux)  
+`hostname -I`  
 
-Display your PC IP (Linux)
-<br>
-<code>
-    ip addr show
-</code>
-<br>
+Display your PC IP (Linux)  
+`ip addr show`  
 
-Display your PC IP (Linux)
-<br>
-<code>
-    curl ifconfig.me
-</code>
-<br>
+Display your PC IP (Linux)  
+`curl ifconfig.me`  
 
-curl icanhazip.com
-Display your PC IP (Linux)
-<br>
-<code>
-    curl ifconfig.me
-</code>
-<br>
+Display your PC IP (Linux)  
+`curl ifconfig.me`  
 
-Display your PC IP (Linux)
-<br>
-<code>
-    curl ipecho.net/plain
-</code>
-<br>
+Display your PC IP (Linux)  
+`curl ipecho.net/plain`  
 
-Display your PC IP (Linux)
-<br>
-<code>
-    curl ident.me
-</code>
-<br>
+Display your PC IP (Linux)  
+`curl ident.me`  
 
-$ curl bot.whatismyipaddress.com
-Display your PC IP (Linux)
-<br>
-<code>
-    curl https://diagnostic.opendns.com/myip
-</code>
-<br>
+`curl bot.whatismyipaddress.com`  
 
-Display your PC IP (Linux)
-<br>
-<code>
-    curl http://checkip.amazonaws.com
-</code>
-<br>
+Display your PC IP (Linux)  
+`curl https://diagnostic.opendns.com/myip`  
 
-Display your PC IP (Linux)
-<br>
-<code>
-    curl http://whatismyip.akamai.com
-</code>
-<br>
+Display your PC IP (Linux)  
+`curl http://checkip.amazonaws.com`  
 
-Display your PC IP (Linux)
-<br>
-<code>
-    wget -qO- ifconfig.me
-</code>
-<br>
+Display your PC IP (Linux)  
+`curl http://whatismyip.akamai.com`  
 
+Display your PC IP (Linux)  
+`wget -qO- ifconfig.me`  
