@@ -2,7 +2,7 @@
 Bash File Commands
 
 ## Execute a BashFile (.bin)
-Execute a file from current folder
+Execute a file from current folder  
 `./filename`  
 
 ## Navigation
@@ -18,7 +18,7 @@ Present working directory
 Open the Present working directory in the Explorer  
 `open .`  
 
-Open the Present working directory in the Visual Studio 
+Open the Present working directory in the Visual Studio  
 `code .`  
 
 
@@ -27,7 +27,11 @@ List files in the current directory
 `ls`  
 
 List files including hidden files  
+`ls -a`  
+
+List files including hidden files and details  
 `ls -all`  
+
 
 ## Check my IP Address
 Display your PC Hostname  
