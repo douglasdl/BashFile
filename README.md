@@ -74,3 +74,48 @@ Display your PC IP (Linux)
 
 Display your PC IP (Linux)  
 `wget -qO- ifconfig.me`  
+
+
+
+## Remote Connection by Ethernet  
+`ssh <b>username</b>@<b>ipaddress</b>`  
+
+
+## Remote Connection File Copy  
+`scp <b>filename</b> <b>username</b>@<b>ipaddress</b>:/<b>directory</b>`  
+
+Recurrent copies
+`scp -r <b>localDirectory</b> <b>username</b>@<b>ipaddress</b>:/<b>directory</b>`
+
+
+
+## Create New Text File  
+`cat <b>filename</b>.txt`  
+
+
+
+
+## VIM Editor
+Edit a file  
+`vi <b>filename</b>`  
+
+Change to edition mode  
+`i`  
+
+Delete a line  (press d twice)
+`dd`  
+
+Save  
+`Press twice the keys <SHIFT> + <Z>`  
+
+Save (Write)  
+`:w`  
+
+Close the file (Quit)  
+`:q`  
+
+Save and Close the file (Write & Quit)
+`:wq`  
+
+Close without Save the file (Quit & Not)
+`:q!`  
