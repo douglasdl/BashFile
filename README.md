@@ -84,7 +84,7 @@ Display your PC IP (Linux)
 ## Remote Connection File Copy  
 `scp <b>filename</b> <b>username</b>@<b>ipaddress</b>:/<b>directory</b>`  
 
-Recurrent copies
+Recurrent copies  
 `scp -r <b>localDirectory</b> <b>username</b>@<b>ipaddress</b>:/<b>directory</b>`
 
 
