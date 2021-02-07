@@ -102,7 +102,7 @@ Edit a file
 Change to edition mode  
 `i`  
 
-Delete a line  (press d twice)
+Delete a line  (press d twice)  
 `dd`  
 
 Save  
@@ -114,8 +114,8 @@ Save (Write)
 Close the file (Quit)  
 `:q`  
 
-Save and Close the file (Write & Quit)
+Save and Close the file (Write & Quit)  
 `:wq`  
 
-Close without Save the file (Quit & Not)
+Close without Save the file (Quit & Not)  
 `:q!`  
