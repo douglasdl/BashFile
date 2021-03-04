@@ -90,7 +90,12 @@ Recurrent copies
 
 
 ## Create New Text File  
-`cat <b>filename</b>.txt`  
+### Linux  
+`cat filename.txt`  
+  
+### Windows  
+`echo some-text  > filename.txt`  
+
 
 
 
