@@ -33,6 +33,15 @@ List files including hidden files and details
 `ls -all`  
 
 
+## Copy all file/directories names to clipboard  
+`dir /b /s |clip`  
+  
+  
+
+
+
+
+
 ## Check my IP Address
 Display your PC Hostname  
 `hostname`  
@@ -95,7 +104,6 @@ Recurrent copies
   
 ### Windows  
 `echo some-text  > filename.txt`  
-
 
 
 
