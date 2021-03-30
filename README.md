@@ -34,6 +34,9 @@ List files including hidden files and details
 
 
 ## Copy all file/directories names to clipboard  
+/b = Uses bare format (no heading information or summary).  
+/s = Displays files in specified directory and all subdirectories.  
+/o = List by files in sorted order.  
 `dir /b /s |clip`  
   
   
