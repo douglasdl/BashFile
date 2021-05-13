@@ -3,41 +3,61 @@ Bash File Commands
 
 ## Execute a BashFile (.bin)
 Execute a file from current folder  
-`./filename`  
+```sh
+./filename
+```  
 
 ## Navigation
 Change directory  
-`cd <folder>`  
+```sh
+cd <folder>
+```  
   
 Change directory (return 1 level)  
-`cd ..`  
+```sh
+cd ..
+```  
   
 Present working directory  
-`pwd`  
+```sh
+pwd
+```  
 
 Open the Present working directory in the Explorer  
-`open .`  
+```sh
+open .
+```  
 
 Open the Present working directory in the Visual Studio  
-`code .`  
+```sh
+code .
+```  
 
 
 ## Listing Files
 List files in the current directory  
-`ls`  
+```sh
+ls
+```  
 
 List files including hidden files  
-`ls -a`  
+```sh
+ls -a
+```  
 
 List files including hidden files and details  
-`ls -all`  
+```sh
+ls -all
+```  
 
 
 ## Copy all file/directories names to clipboard  
 /b = Uses bare format (no heading information or summary).  
 /s = Displays files in specified directory and all subdirectories.  
 /o = List by files in sorted order.  
-`dir /b /s |clip`  
+```sh
+dir /b /s |clip
+```  
   
   
 
@@ -47,66 +67,104 @@ List files including hidden files and details
 
 ## Check my IP Address
 Display your PC Hostname  
-`hostname`  
+```sh
+hostname
+```  
 
 Display your PC IP (Windows)  
-`ipconfig`  
+```sh
+ipconfig
+```  
 
 Display your PC IP (Linux)  
-`ip`  
+```sh
+ip
+```  
 
 Display your PC IP (Linux)  
-`hostname -I`  
+```sh
+hostname -I
+```  
 
 Display your PC IP (Linux)  
-`ip addr show`  
+```sh
+ip addr show
+```  
 
 Display your PC IP (Linux)  
-`curl ifconfig.me`  
+```sh
+curl ifconfig.me
+```  
 
 Display your PC IP (Linux)  
-`curl ifconfig.me`  
+```sh
+curl ifconfig.me
+```  
 
 Display your PC IP (Linux)  
-`curl ipecho.net/plain`  
+```sh
+curl ipecho.net/plain
+```  
 
 Display your PC IP (Linux)  
-`curl ident.me`  
+```sh
+curl ident.me
+```  
 
-`curl bot.whatismyipaddress.com`  
-
-Display your PC IP (Linux)  
-`curl https://diagnostic.opendns.com/myip`  
-
-Display your PC IP (Linux)  
-`curl http://checkip.amazonaws.com`  
+```sh
+curl bot.whatismyipaddress.com
+```  
 
 Display your PC IP (Linux)  
-`curl http://whatismyip.akamai.com`  
+```sh
+curl https://diagnostic.opendns.com/myip
+```  
 
 Display your PC IP (Linux)  
-`wget -qO- ifconfig.me`  
+```sh
+curl http://checkip.amazonaws.com
+```  
+
+Display your PC IP (Linux)  
+```sh
+curl http://whatismyip.akamai.com
+```  
+
+Display your PC IP (Linux)  
+```sh
+wget -qO- ifconfig.me
+```  
 
 
 
 ## Remote Connection by Ethernet  
-`ssh <b>username</b>@<b>ipaddress</b>`  
+```sh
+ssh <b>username</b>@<b>ipaddress</b>
+```  
 
 
 ## Remote Connection File Copy  
-`scp <b>filename</b> <b>username</b>@<b>ipaddress</b>:/<b>directory</b>`  
+```sh
+scp <b>filename</b> <b>username</b>@<b>ipaddress</b>:/<b>directory</b>
+```  
 
 Recurrent copies  
-`scp -r <b>localDirectory</b> <b>username</b>@<b>ipaddress</b>:/<b>directory</b>`
+```sh
+scp -r <b>localDirectory</b> <b>username</b>@<b>ipaddress</b>:/<b>directory</b>
+```
 
 
 
 ## Create New Text File  
 ### Linux  
-`cat filename.txt`  
+```sh
+cat filename.txt
+```  
   
 ### Windows  
-`echo some-text  > filename.txt`  
+```sh
+echo some-text  > filename.txt
+```  
 
 
 
@@ -125,13 +183,27 @@ Save
 `Press twice the keys <SHIFT> + <Z>`  
 
 Save (Write)  
-`:w`  
+```sh
+:w
+```  
 
 Close the file (Quit)  
-`:q`  
+```sh
+:q
+```  
 
 Save and Close the file (Write & Quit)  
-`:wq`  
+```sh
+:wq
+```  
 
 Close without Save the file (Quit & Not)  
-`:q!`  
+```sh
+:q!
+```  
+
+
+# Open Windows Startup Folder  
+```sh
+shell:startup
+```
