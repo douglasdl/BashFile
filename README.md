@@ -139,18 +139,23 @@ wget -qO- ifconfig.me
 
 ## Remote Connection by Ethernet  
 ```sh
-ssh <b>username</b>@<b>ipaddress</b>
+ssh username@ipaddress
 ```  
 
 
 ## Remote Connection File Copy  
 ```sh
-scp <b>filename</b> <b>username</b>@<b>ipaddress</b>:/<b>directory</b>
+scp filename username@ipaddress:/directory
 ```  
 
 Recurrent copies  
 ```sh
-scp -r <b>localDirectory</b> <b>username</b>@<b>ipaddress</b>:/<b>directory</b>
+scp -r localDirectory username@ipaddress:/directory
+```
+
+## Check used and remaining disk space
+```sh
+ssh username@ipaddress "df -h"
 ```
 
 
@@ -171,13 +176,19 @@ echo some-text  > filename.txt
 
 ## VIM Editor
 Edit a file  
-`vi <b>filename</b>`  
+```sh
+vi filename
+```  
 
 Change to edition mode  
-`i`  
+```sh
+i
+```  
 
 Delete a line  (press d twice)  
-`dd`  
+```sh
+dd
+```  
 
 Save  
 `Press twice the keys <SHIFT> + <Z>`  
