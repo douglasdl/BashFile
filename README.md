@@ -218,3 +218,10 @@ Close without Save the file (Quit & Not)
 ```sh
 shell:startup
 ```
+
+## Change Permission Access Level
+
+Read, Write, Execute
+```sh
+sudo chown www-data:www-data /var/www/[new directory]
+```
