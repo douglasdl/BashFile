@@ -24,8 +24,16 @@ pwd
 ```
 
 Disk Usage (Get the size of a directory):
+-s = summarize
+-h = human-readable
+-a all
 ```sh
 sudo du -sh /var
+```
+
+Disk usage (Show all folders sorting by size): 
+```sh
+du -ah --max-depth=1 | sort -h
 ```
 
 Open the Present working directory in the Explorer  
