@@ -21,7 +21,12 @@ cd ..
 Present working directory  
 ```sh
 pwd
-```  
+```
+
+Disk Usage (Get the size of a directory):
+```sh
+sudo du -sh /var
+```
 
 Open the Present working directory in the Explorer  
 ```sh
