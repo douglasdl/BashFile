@@ -18,9 +18,14 @@ Change directory (return 1 level)
 cd ..
 ```  
   
-Present working directory  
+Present working directory  (Linux)
 ```sh
 pwd
+```
+
+Present working directory (Windows)
+```sh
+echo %cd%
 ```
 
 Disk Usage (Get the size of a directory):
